@@ -1,16 +1,15 @@
 import UIKit
 
-// 변수, 상수
+// Type
+// Type Annotations
 
-var score = 1
+var myName1: String = "jiyoung"
+var myName2 = "jiyoung"
 
-score = 50
+var score1: Int = 40
+var score2: Double = 40.0
 
-score = -100
+score1 = 100
 
-score = 0
-
-let myName = "jiyoung"
-
-//Cannot assign to value: 'myName' is a 'let' constant
-//myName = "Ryu"
+//Cannot assign value of type 'String' to type 'Int'
+//score1 = "hi"
